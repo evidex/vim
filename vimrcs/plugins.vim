@@ -41,9 +41,6 @@ Plug 'tmhedberg/SimpylFold'
 " vim-json
 Plug 'https://github.com/elzr/vim-json.git'
 
-" vim-isort
-Plug 'https://github.com/fisadev/vim-isort.git'
-
 " javascript highlighting and folding
 Plug 'https://github.com/pangloss/vim-javascript.git'
 

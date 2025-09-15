@@ -95,16 +95,6 @@ let g:markdown_folding=0
 map <leader>6 :Tabularize<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => isort - python import sorting
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-function JumpImportAndSort()
-    "normal! 1G
-    normal! ?import<cr>
-    normal! :ALEFix isort<cr>
-endfunction
-"map <leader>i :call JumpImportAndSort()<cr>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => jedi-vim - python code completion
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:jedi#force_py_version = "3.12"
