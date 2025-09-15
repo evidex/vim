@@ -57,8 +57,6 @@ Plug 'liuchengxu/vista.vim'
 " vim-slime - send code to REPLs
 Plug 'https://github.com/jpalardy/vim-slime.git'
 
-" Windsurf / Codemium 
-Plug 'https://github.com/Exafunction/windsurf.vim.git'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Archive
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
