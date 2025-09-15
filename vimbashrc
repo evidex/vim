@@ -1,0 +1,2 @@
+export IS_VIM_SHELL=0
+. ~/.bashrc 
