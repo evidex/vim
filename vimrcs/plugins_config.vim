@@ -155,7 +155,23 @@ nmap <leader><cr> <Plug>SlimeMotionSend
 "send line
 nmap <leader><cr> <Plug>SlimeLineSend
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Windsurf
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set statusline+=\{…\}%3{codeium#GetStatusString()}
+imap <C-;> <Cmd>call codeium#CycleCompletions(1)<CR>
+imap <C-'> <Cmd>call codeium#CycleCompletions(-1)<CR>
+imap <C-x> <Cmd>call codeium#Clear()<CR>
+hi! link CodeiumSuggestion Fodled
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => ARCHIVED PLUGINS
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => claude.vim 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" let g:claude_use_bedrock = 1
+" let g:claude_bedrock_region = 'us-east-1'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => ARCHIVED PLUGINS
