@@ -97,12 +97,6 @@ map <leader>6 :Tabularize<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => jedi-vim - python code completion
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:jedi#force_py_version = "3.12"
-if has('linux')
-    let g:jedi#environment_path = "/usr/bin/python3.12"
-else
-    let g:jedi#environment_path = "/opt/homebrew/opt/python@3.12/bin/python3.12"
-endif
 let g:jedi#completions_command = "<leader>l"
 let g:jedi#use_tabs_not_buffers = 1
 let g:jedi#popup_on_dot = 0
