@@ -156,15 +156,6 @@ nmap <leader><cr> <Plug>SlimeMotionSend
 nmap <leader><cr> <Plug>SlimeLineSend
 
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Windsurf
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-imap <C-;>   <Cmd>call codeium#CycleCompletions(1)<CR>
-imap <C-'>   <Cmd>call codeium#CycleCompletions(-1)<CR>
-imap <C-x>   <Cmd>call codeium#Clear()<CR>
-hi! link CodeiumSuggestion Folded
-
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => ARCHIVED PLUGINS
